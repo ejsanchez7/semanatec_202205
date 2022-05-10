@@ -4,13 +4,13 @@ import random
 triesLimit = 10
 tries = 0
 
-print('\nBienvenido, el sistema "pensará" un número entre N '
-      f'y M y deberás adivinarlo. Contarás con {triesLimit} '
+print('\nBienvenido, el sistema "pensará" un número entre X '
+      f'e Y y deberás adivinarlo. Contarás con {triesLimit} '
       'intentos para lograrlo\n')
 
 # Determinar el límite inferior y superior
-bottom = int(input("Introduce el valor de N: "))
-top = int(input("Introduce el valor de M: "))
+bottom = int(input("Introduce el valor de X: "))
+top = int(input("Introduce el valor de Y: "))
 
 print("\n")
 
